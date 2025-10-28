@@ -1,0 +1,198 @@
+/* Estilos para los grupos de información */
+.infoGroup {
+    :where(& > :not(:last-child)) {
+        --tw-space-y-reverse: 0;
+        margin-block-start: calc(calc(var(--spacing) * 3) * var(--tw-space-y-reverse));
+        margin-block-end: calc(calc(var(--spacing) * 3) * calc(1 - var(--tw-space-y-reverse)));
+    }
+}
+
+.infoGroupLarge {
+    :where(& > :not(:last-child)) {
+        --tw-space-y-reverse: 0;
+        margin-block-start: calc(calc(var(--spacing) * 6) * var(--tw-space-y-reverse));
+        margin-block-end: calc(calc(var(--spacing) * 6) * calc(1 - var(--tw-space-y-reverse)));
+    }
+}
+
+/* Estilos para las tarjetas de información */
+.infoCard {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    border-style: var(--tw-border-style);
+    border-width: 1px;
+    border-color: #f3f4f6;
+}
+
+.infoCard:hover {
+    background-color: #f9fafb;
+}
+
+/* Estilos para los iconos */
+.iconWrapper {
+    background-color: #dbeafe;
+    padding: 0.5rem;
+    border-radius: calc(infinity * 1px);
+}
+
+.infoCardIcon {
+    width: 1.25rem; 
+    height: 1.25rem; 
+    color: #2563EB; 
+}
+
+/* Estilos para el texto en las tarjetas */
+.infoCardText {
+    display: flex; 
+    flex-direction: column; 
+}
+
+.infoCardLabel {
+    font-size: 0.875rem;
+    line-height: 1.25rem; 
+    font-weight: 500; 
+    color: #374151; 
+}
+
+.infoCardValue {
+    font-size: 1rem;
+    line-height: 1.5rem; 
+    font-weight: 600; 
+}
+
+/* Estilos para las características extendidas */
+.caracteristicasContainer {
+    max-height: 400px;
+    overflow-y: auto;
+    padding-right: 1rem;
+}
+
+/* Estilos para las tarjetas de características */
+.caracteristicaCard {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    background-color: #f9fafb;
+    border-width: 1px;
+    border-color: #e5e7eb;
+    margin-bottom: 0.75rem;
+    transition-property: background-color;
+    transition-duration: 200ms;
+}
+
+.caracteristicaCard:hover {
+    background-color: #f3f4f6;
+}
+
+.caracteristicaIconWrapper {
+    flex-shrink: 0;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 9999px;
+    background-color: #dbeafe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.25rem;
+}
+
+.caracteristicaIcon {
+    height: 1.25rem;
+    width: 1.25rem;
+    color: #2563eb;
+}
+
+.caracteristicaContent {
+    flex: 1;
+}
+
+.caracteristicaTitle {
+    font-weight: 700;
+    color: #1f2937;
+    display: block;
+}
+
+.caracteristicaValue {
+    color: #4b5563;
+    word-break: break-word;
+}
+
+/* Estilos para el estado de carga */
+.loadingContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+}
+
+.loadingSpinner {
+    animation: spin 1s linear infinite;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 9999px;
+    border-width: 2px;
+    border-bottom-color: #3b82f6;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Estilos para el estado vacío */
+.emptyState {
+    text-align: center;
+    padding: 2.5rem 0;
+    color: #6b7280;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.emptyStateIcon {
+    height: 3rem;
+    width: 3rem;
+    color: #d1d5db;
+    margin-bottom: 0.75rem;
+}
+
+.emptyStateText {
+    font-weight: 500;
+}
+
+/* Estilos para la descripción */
+.descripcionContainer {
+    background-color: #f9fafb;
+    padding: 0.75rem;
+    border-radius: 0.375rem;
+    border-width: 1px;
+    border-color: #f3f4f6;
+}
+
+.descripcionText {
+    color: #374151;
+    line-height: 1.625;
+}
+
+/* Estilos para la galería */
+.galleryWrapper {
+    flex-grow: 1;
+}
+
+.sectionIcon {
+    width: 1.25rem; 
+    height: 1.25rem;
+    color: var(--primary); 
+}
+    

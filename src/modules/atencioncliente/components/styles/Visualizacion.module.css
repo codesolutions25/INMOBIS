@@ -1,0 +1,55 @@
+.visualizacionContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 1rem 0;
+}
+
+.visualizacionSection {
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background-color: #f8fafc;
+}
+
+.visualizacionTitle {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #1e293b;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 0.5rem;
+}
+
+.visualizacionItem {
+  display: flex;
+  margin-bottom: 0.5rem;
+  padding: 0.25rem 0;
+}
+
+.visualizacionLabel {
+  font-weight: 500;
+  width: 120px;
+  color: #64748b;
+}
+
+.visualizacionValue {
+  flex: 1;
+  color: #0f172a;
+}
+
+/* Estilos para estados */
+.estadoEnCurso {
+  color: #0284c7;
+  font-weight: 500;
+}
+
+.estadoCancelado {
+  color: #dc2626;
+  font-weight: 500;
+}
+
+.estadoVendido {
+  color: #16a34a;
+  font-weight: 500;
+}

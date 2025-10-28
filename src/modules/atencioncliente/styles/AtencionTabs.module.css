@@ -1,0 +1,127 @@
+.tabsContainer {
+    width: 100%;
+    height: 100%;
+    max-height: 735px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.5rem;
+    overflow: auto;
+}
+
+.tabsHeader {
+    display: flex;
+    background-color: #f8fafc;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.tabButton {
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-weight: 500;
+    color: #475569;
+    transition: all 0.2s ease-in-out;
+    border-bottom: 3px solid transparent;
+}
+
+.tabButton.active {
+    color: #0f172a;
+    font-weight: 600;
+}
+
+.tabButton.cotizacion.active {
+    border-bottom-color: #3b82f6; /* Azul */
+}
+
+.tabButton.consulta.active {
+    border-bottom-color: #10b981; /* Verde */
+}
+
+.tabButton.reclamo.active {
+    border-bottom-color: #ef4444; /* Rojo */
+}
+
+.tabButton:hover {
+    background-color: #f1f5f9;
+}
+
+.tabsContentContainer {
+    flex-grow: 1;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.tabContent {
+    color: #334155;
+    flex-grow: 1;
+    border-radius: 0.25rem;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 400px;
+}
+
+.tabHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.tabBody {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.tabBodyWithPlaceholder {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabPlaceholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    margin: 2rem auto;
+    min-height: 200px;
+    max-width: 500px;
+    width: 90%;
+}
+
+.placeholderIcon {
+    width: 36px;
+    height: 36px;
+    stroke-width: 1.5;
+    margin-bottom: 1rem;
+    color: hsl(var(--primary));
+}
+
+.placeholderTitle {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #374151;
+}
+
+.placeholderDescription {
+    font-size: 0.9rem;
+    color: #6b7280;
+    line-height: 1.4;
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}

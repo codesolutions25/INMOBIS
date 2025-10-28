@@ -1,0 +1,14 @@
+|id_modulo|nombre                |descripcion                   |orden|icono            |es_activo|created_at             |updated_at             |
+|---------|----------------------|------------------------------|-----|-----------------|---------|-----------------------|-----------------------|
+|1        |Dashboard             |Módulo: Dashboard             |1    |LayoutDashboard  |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|2        |Usuarios              |Módulo: Usuarios              |2    |UserRound        |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|3        |Empresas              |Módulo: Empresas              |3    |BriefcaseBusiness|true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|5        |Gestión inmobiliario  |Módulo: Gestión inmobiliario  |5    |House            |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|8        |Ventas                |Módulo: Ventas                |8    |ShoppingCart     |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|9        |Punto de venta        |Módulo: Punto de venta        |9    |MapPin           |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|10       |Caja                  |Módulo: Caja                  |10   |CircleDollarSign |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|11       |Atención al cliente   |Módulo: Atención al cliente   |11   |Headset          |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|12       |Configuración         |Módulo: Configuración         |12   |Settings         |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|6        |Cotizaciones          |Módulo: Cotizaciones          |6    |HandCoins        |false    |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|7        |Reservas              |Módulo: Reservas              |7    |Calendar         |false    |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|4        |Clientes Inmobiliarios|Módulo: Clientes Inmobiliarios|4    |UsersRound       |false    |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|

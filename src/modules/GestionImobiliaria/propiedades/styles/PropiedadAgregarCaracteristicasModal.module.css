@@ -1,0 +1,152 @@
+.dialogPaper {
+    width: 1200px !important;
+    height: 850px !important;
+    max-width: 1200px !important;
+    max-height: 850px !important;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.dialogTitle {
+    background-color: #0c4a6e;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 16px 24px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.dialogContent {
+    padding: 20px;
+    padding-top: 24px;
+    height: calc(850px - 132px);
+    overflow: auto;
+}
+
+.loadingContainer {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.emptyStateContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+    text-align: center;
+    height: calc(100% - 100px);
+    color: #666;
+}
+
+.autocomplete {
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+.autocompleteInput {
+    flex-wrap: wrap;
+    min-height: 70px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.autocompleteEndAdornment {
+    top: 12px;
+}
+
+.autocompleteLabel {
+    font-size: 1rem;
+    top: -6px;
+}
+
+.autocompleteLabelFilled {
+    top: 8px;
+}
+
+.chip {
+    height: auto;
+}
+
+.chipLabel {
+    white-space: normal;
+    overflow: visible;
+    font-size: 0.85rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.chipContainer {
+    display: inline-flex;
+    margin: 0.5rem;
+}
+
+.customChip {
+    background-color: #e8f4f5;
+    border-color: #00b1b9;
+    color: #00717a;
+}
+
+.customChipDeleteIcon {
+    color: #00b1b9;
+}
+
+.customChipDeleteIcon:hover {
+    color: #00717a;
+}
+
+.selectedItemsContainer {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.scrollableContainer {
+    max-height: calc(850px - 350px);
+    overflow-y: auto;
+    padding-right: 1rem;
+}
+
+.scrollableContainer::-webkit-scrollbar {
+    width: 8px;
+}
+
+.scrollableContainer::-webkit-scrollbar-thumb {
+    background-color: #c1c1c1;
+    border-radius: 4px;
+}
+
+.itemBox {
+    margin-bottom: 3rem;
+    padding: 2rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.itemLabel {
+    margin-bottom: 1rem;
+    font-weight: 500;
+    color: #1a3b6e;
+}
+
+.textarea {
+    background-color: white;
+    border: 1px solid #d0d5dd;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 14px;
+    resize: vertical;
+    min-height: 100px;
+}
+
+.cancelButton {
+    color: #00b1b9;
+    border-color: #00b1b9;
+}
+
+.saveButton {
+    background-color: #00b1b9;
+    color: white;
+}

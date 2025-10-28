@@ -1,0 +1,46 @@
+|id_empresa_modulo_opcion|id_empresa_sistema_modulo|id_opcion|nombre_alias             |ruta                          |otorgado_en            |
+|------------------------|-------------------------|---------|-------------------------|------------------------------|-----------------------|
+|1                       |2                        |1        |Gestionar personas       |/persona                      |2025-07-03 21:44:46.000|
+|5                       |5                        |5        |Gestionar proyectos      |/proyectos                    |2025-07-03 21:44:46.000|
+|6                       |5                        |6        |Gestionar propiedades    |/propiedades                  |2025-07-03 21:44:46.000|
+|7                       |5                        |7        |Gestionar caracteristicas|/caracteristicasinmobiliarios |2025-07-03 21:44:46.000|
+|8                       |8                        |8        |Gestionar ventas         |#                             |2025-07-03 21:44:46.000|
+|10                      |8                        |10       |Gestionar notas de ventas|#                             |2025-07-03 21:44:46.000|
+|12                      |9                        |12       |Gestionar puntos de venta|/puntosventa/puntoventa       |2025-07-03 21:44:46.000|
+|13                      |9                        |13       |Asignar usuarios         |/puntosventa/puntoventausuario|2025-07-03 21:44:46.000|
+|14                      |10                       |14       |Caja Chica               |/cajachicamovimientos         |2025-07-03 21:44:46.000|
+|15                      |10                       |15       |Caja Ejecutiva           |/cajaejecutivamovimientos     |2025-07-03 21:44:46.000|
+|16                      |10                       |16       |Caja Central             |/cajacentralmovimientos       |2025-07-03 21:44:46.000|
+|17                      |10                       |17       |Crear nueva caja         |/caja                         |2025-07-03 21:44:46.000|
+|19                      |10                       |19       |Reporte de operaciones   |/cajaoperaciones              |2025-07-03 21:44:46.000|
+|20                      |10                       |20       |Tipos de caja            |/configuracion/tiposcaja      |2025-07-03 21:44:46.000|
+|21                      |10                       |21       |Estados de caja          |/configuracion/estadoscaja    |2025-07-03 21:44:46.000|
+|22                      |10                       |22       |Tipos de operación       |/tiposoperacion               |2025-07-03 21:44:46.000|
+|23                      |10                       |23       |Tipos de movimiento      |/tiposmovimiento              |2025-07-03 21:44:46.000|
+|24                      |12                       |24       |Roles                    |#                             |2025-07-03 21:44:46.000|
+|26                      |12                       |26       |Tipos de documento       |#                             |2025-07-03 21:44:46.000|
+|28                      |12                       |28       |Estados de propiedad     |#                             |2025-07-03 21:44:46.000|
+|29                      |12                       |29       |Estado de cotización     |#                             |2025-07-03 21:44:46.000|
+|31                      |12                       |31       |Tipos de item de venta   |#                             |2025-07-03 21:44:46.000|
+|32                      |12                       |32       |Metodos de pago          |#                             |2025-07-03 21:44:46.000|
+|33                      |12                       |33       |Estados de venta         |#                             |2025-07-03 21:44:46.000|
+|34                      |12                       |34       |Tipos nota de venta      |#                             |2025-07-03 21:44:46.000|
+|35                      |12                       |35       |Estados de nota de venta |#                             |2025-07-03 21:44:46.000|
+|2                       |2                        |2        |Gestionar usuarios       |/usuario                      |2025-07-03 21:44:46.000|
+|4                       |2                        |4        |Asignar permisos         |/permisos                     |2025-07-03 21:44:46.000|
+|11                      |8                        |11       |Anular venta             |#                             |2025-07-03 21:44:46.000|
+|42                      |1                        |36       |Dashboard                |/                             |2025-07-03 21:44:46.000|
+|43                      |3                        |37       |Empresas                 |/empresas                     |2025-07-03 21:44:46.000|
+|47                      |11                       |41       |Atención al cliente      |/atencioncliente              |2025-07-03 21:44:46.000|
+|45                      |6                        |39       |Cotizaciones             |#                             |2025-07-03 21:44:46.000|
+|46                      |7                        |40       |Reservas                 |#                             |2025-07-03 21:44:46.000|
+|44                      |4                        |38       |Clientes Inmobiliarios   |/clientesinmobiliarios        |2025-07-03 21:44:46.000|
+|48                      |12                       |42       |Feriados Globales        |/feriadosGlobales             |2025-07-03 21:44:46.000|
+|3                       |2                        |3        |Asignar roles            |/rol                          |2025-07-03 21:44:46.000|
+|9                       |8                        |9        |Gestionar pagos de ventas|/gestionpagos                 |2025-07-03 21:44:46.000|
+|18                      |10                       |18       |Asignar caja a usuario   |/cajausuario                  |2025-07-03 21:44:46.000|
+|25                      |12                       |25       |Mora                     |/configInteresMora            |2025-07-03 21:44:46.000|
+|30                      |12                       |30       |Tipos de pago            |/tipopago                     |2025-07-03 21:44:46.000|
+|27                      |12                       |27       |Tipos de propiedad       |/tiposPropiedad               |2025-07-03 21:44:46.000|
+|41                      |12                       |27       |Tipos de Propiedades     |#                             |2025-07-03 21:44:46.000|
+|49                      |12                       |27       |Tipos de propiedad       |/tiposPropiedad               |2025-09-04 10:18:31.926|

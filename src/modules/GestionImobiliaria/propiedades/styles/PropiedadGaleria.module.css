@@ -1,0 +1,169 @@
+.gallery__loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 256px;
+}
+
+.gallery__loaderIcon {
+    height: 32px ;
+    width: 32px ;
+    animation: var(--animate-spin);
+    color: var(--primary);
+}
+
+.gallery__error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 256px;
+    color: var(--destructive);
+}
+
+.gallery__empty {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 256px;
+    background-color: #f9fafb;
+    border-radius: 4px;
+    border-style: var(--tw-border-style);
+    border-width: 1px;
+    border-color: #e5e7eb
+}
+
+.gallery__emptyIcon {
+    height: 48px;
+    width: 48px;
+    color: #99a1af;
+    margin-bottom: 8px;
+}
+
+.gallery__emptyText {
+    color: #6a7282;
+}
+
+.gallery {
+    height: 100%;
+}
+
+.gallery__div {
+    :where(& > :not(:last-child)) {
+        --tw-space-y-reverse: 0;
+        margin-block-start: calc(calc(var(--spacing) * 4) /* 1rem = 16px */ * var(--tw-space-y-reverse));
+        margin-block-end: calc(calc(var(--spacing) * 4) /* 1rem = 16px */ * calc(1 - var(--tw-space-y-reverse)));
+    }
+}
+
+.swiper {
+    border-radius: var(--radius);
+    overflow: hidden;
+    height: 400px;
+
+}
+
+.gallery__mainImageWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #f3f4f6;
+}
+
+.gallery__mainImage {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.gallery__thumbnail {
+    cursor: pointer;
+    border-radius: 4px;
+    overflow: hidden;
+    border-style: var(--tw-border-style);
+    border-width: 2px;
+    border-color: transparent;
+    transition-property: all;
+    transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
+    transition-duration: var(--tw-duration, var(--default-transition-duration));
+}
+
+.gallery__thumbnail:hover {
+    border-color: var(--primary);
+}
+
+.gallery__thumbnailImage {
+    width: 100%;
+    height: calc(var(--spacing) * 20);
+    object-fit: cover;
+}
+
+.gallery__info {
+    margin-top: calc(var(--spacing) * 4);
+    background-color: #f9fafb;
+    border-radius: var(--radius);
+    padding: calc(var(--spacing) * 3);
+    border-style: var(--tw-border-style);
+    border-width: 1px;
+    border-color: var(--color-gray-100)
+}
+
+.gallery__infoDescription {
+    margin-bottom: calc(var(--spacing) * 3);
+}
+
+.gallery__infoText {
+    color: var(--color-gray-600);
+}
+
+.gallery__infoFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: calc(var(--spacing) * 2);
+    border-top-style: var(--tw-border-style);
+    border-top-width: 1px;
+    border-color: var(--color-gray-200);
+}
+
+.gallery__infoCounter {
+    font-size: var(--text-sm);
+    line-height: var(--tw-leading, var(--text-sm--line-height));
+    color: var(--color-gray-600);
+}
+
+.gallery__infoCounter--bold {
+    --tw-font-weight: var(--font-weight-medium);
+    font-weight: var(--font-weight-medium);
+}
+
+.gallery__infoActions {
+    display: flex;
+    :where(& > :not(:last-child)) {
+        --tw-space-x-reverse: 0;
+        margin-inline-start: calc(calc(var(--spacing) * 2) /* 0.5rem = 8px */ * var(--tw-space-x-reverse));
+        margin-inline-end: calc(calc(var(--spacing) * 2) /* 0.5rem = 8px */ * calc(1 - var(--tw-space-x-reverse)));
+    }
+}
+
+.gallery__infoButton {
+    padding-inline: calc(var(--spacing) * 3);
+    padding-block: calc(var(--spacing) * 1);
+    font-size: var(--text-xs);
+    line-height: var(--tw-leading, var(--text-xs--line-height));
+    background-color: var(--color-blue-50);
+    color: var(--color-blue-600);
+    border-radius: calc(var(--radius));
+    transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to;
+    transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
+    transition-duration: var(--tw-duration, var(--default-transition-duration));
+}
+
+.gallery__infoButton:hover {
+    @media (hover: hover) {
+        background-color: var(--color-blue-100);
+    }
+}

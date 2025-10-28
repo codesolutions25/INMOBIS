@@ -1,0 +1,156 @@
+.imageList {
+    :where(& > :not(:last-child)) {
+        --tw-space-y-reverse: 0;
+        margin-block-start: calc(calc(var(--spacing) * 4) /* 1rem = 16px */ * var(--tw-space-y-reverse));
+        margin-block-end: calc(calc(var(--spacing) * 4) /* 1rem = 16px */ * calc(1 - var(--tw-space-y-reverse)));
+    }
+}
+
+.imageList__loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: calc(var(--spacing) * 8);
+}
+
+.imageList__loaderIcon {
+    height: calc(var(--spacing) * 8);
+    width: calc(var(--spacing) * 8);
+    animation: var(--animate-spin);
+    color: var(--color-gray-500);
+}
+
+.imageList__error {
+    text-align: center;
+    padding-block: calc(var(--spacing) * 8);
+    color: var(--color-red-500);
+}
+
+.imageList__empty {
+    text-align: center;
+    padding-block: calc(var(--spacing) * 8);
+    color: var(--color-gray-500);
+}
+
+.imageList__grid {
+    margin-bottom: calc(var(--spacing) * 6);
+    :where(& > :not(:last-child)) {
+        --tw-space-y-reverse: 0;
+        margin-block-start: calc(calc(var(--spacing) * 4) /* 1rem = 16px */ * var(--tw-space-y-reverse));
+        margin-block-end: calc(calc(var(--spacing) * 4) /* 1rem = 16px */ * calc(1 - var(--tw-space-y-reverse)));
+    }; 
+}
+
+.imageItem {
+    display: flex;
+    align-items: center;
+    padding: calc(var(--spacing) * 3);
+    border-style: var(--tw-border-style);
+    border-width: 1px;
+    border-radius: calc(var(--radius) /* 0.25rem = 4px */ - 2px);
+    transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to;
+    transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
+    transition-duration: var(--tw-duration, var(--default-transition-duration));
+}
+
+.imageItem:hover {
+    background-color: var(--color-gray-50);
+}
+
+.imageItem__preview {
+    flex-shrink: 0;
+    margin-right: calc(var(--spacing) * 4);
+    width: calc(var(--spacing) * 16);
+    height: calc(var(--spacing) * 16);
+    background-color: var(--color-gray-100);
+    border-radius: 0.25rem;
+    overflow: hidden;
+}
+
+.imageItem__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imageItem__placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.imageItem__placeholderIcon {
+    height: calc(var(--spacing) * 6);
+    width: calc(var(--spacing) * 6);
+    color: var(--color-gray-400);
+}
+
+.imageItem__description {
+    flex-grow: 1;
+}
+
+.imageItem__descriptionText {
+    font-size: var(--text-sm);
+    line-height: var(--tw-leading, var(--text-sm--line-height));
+}
+
+.imageItem__deleteButtonWrapper {
+    flex-shrink: 0;
+    margin-left: calc(var(--spacing) * 4);
+}
+
+.imageItem__deleteButton {
+    height: calc(var(--spacing) * 8);
+    width: calc(var(--spacing) * 8);
+    padding: calc(var(--spacing) * 0);
+}
+
+.imageItem__deleteButtonSpinner {
+    height: calc(var(--spacing) * 4);
+    width: calc(var(--spacing) * 4);
+    animation: var(--animate-spin);
+}
+
+.imageItem__deleteButtonIcon {
+    height: calc(var(--spacing) * 4);
+    width: calc(var(--spacing) * 4);
+}
+
+.imageList__pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: calc(var(--spacing) * 6);
+}
+
+.deleteDialog {
+    margin-top: calc(var(--spacing) * 2);
+}
+
+.deleteDialog__imageContainer {
+    display: flex;
+    justify-content: center;
+    margin-block: calc(var(--spacing) * 4);
+}
+
+.deleteDialog__preview {
+    width: calc(var(--spacing) * 24);
+    height: calc(var(--spacing) * 24);
+    background-color: var(--color-gray-100);
+    border-radius: 0.25rem;
+    overflow: hidden;
+}
+
+.deleteDialog__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.deleteDialog__confirmButton {
+    background-color: var(--destructive);
+}
+
+.deleteDialog__confirmButton:hover {
+    background-color: color-mix(in oklab, var(--destructive) 90%);
+}

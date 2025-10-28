@@ -1,0 +1,81 @@
+.botonSubirImagen {
+    display: flex;
+    align-items: center;
+    gap: calc(var(--spacing) * 2);
+}
+
+.botonIcon {
+    height: calc(var(--spacing) * 4);
+    width: calc(var(--spacing) * 4);
+}
+
+.dialogContent {
+    padding: calc(var(--spacing) * 6);
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 90vh;
+    max-width: 1200px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente en móvil */
+    gap: 1rem; /* Espacio entre título y botones */
+    padding-bottom: calc(var(--spacing) * 4);
+    margin-bottom: calc(var(--spacing) * 4);
+    border-bottom: 1px solid var(--border-color);
+}
+
+/* En pantallas medianas y grandes */
+@media (min-width: 768px) {
+    .header {
+        flex-direction: row; /* Vuelve a la disposición horizontal */
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.tittle {
+    font-size: var(--text-2xl);
+    line-height: var(--tw-leading, var(--text-2xl--line-height));
+    --tw-font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-gray-800);
+}
+
+.buttonsContainer {
+    display: flex;
+    align-items: center;
+    gap: calc(var(--spacing) * 2);
+}
+
+.button1 {
+    display: flex;
+    align-items: center;
+    gap: calc(var(--spacing) * 2);
+}
+
+.button2 {
+    display: flex;
+    align-items: center;
+    gap: calc(var(--spacing) * 2);
+}
+
+.buttonTitle1 {
+    height: calc(var(--spacing) * 4);
+    width: calc(var(--spacing) * 4);
+}
+
+.buttonTitle2 {
+    height: calc(var(--spacing) * 4);
+    width: calc(var(--spacing) * 4);
+}
+
+.listOption {
+    flex-grow: 1;
+    overflow-y: auto;
+    margin-inline: calc(var(--spacing) * -6);
+    padding-inline: calc(var(--spacing) * 6);
+    padding-top: calc(var(--spacing) * 4);
+}

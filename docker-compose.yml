@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  next-static-frontend:
+    image: nginx:alpine
+    container_name: next-static-frontend
+    ports:
+      - "3000:80"  # 80 dentro del contenedor, 3000 host
+    volumes:
+      - /fileserver/saas-code-dev/frontend/out:/usr/share/nginx/html:ro
+    restart: always
+    networks:
+      - saas_code_net
+
+networks:
+  saas_code_net:
+    external: true

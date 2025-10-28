@@ -1,0 +1,105 @@
+# Config
+NEXT_PUBLIC_CONFIG_SERVICE_URL=http://192.168.10.249:3001/api
+ 
+# Inmobiliaria
+NEXT_PUBLIC_INMOBILIARIA_SERVICE_URL=http://192.168.10.249:3007/api
+ 
+# Auth
+NEXT_PUBLIC_AUTH_SERVICE_URL=http://192.168.10.249:3002/api
+ 
+# Caja
+NEXT_PUBLIC_CAJA_SERVICE_URL=http://192.168.10.249:3004/api
+ 
+# Archivos
+NEXT_PUBLIC_ARCHIVOS_SERVICE_URL=http://192.168.10.249:3006/api
+ 
+# Atencion
+NEXT_PUBLIC_ATENCION_SERVICE_URL=http://192.168.10.249:3003/api
+ 
+# Plan de pagos
+NEXT_PUBLIC_PLAN_PAGOS_SERVICE_URL=http://192.168.10.249:3008/api
+ 
+# Ventas
+NEXT_PUBLIC_VENTA_SERVICE_URL=http://192.168.10.249:3009/api
+ 
+# Imagenes
+NEXT_PUBLIC_IMAGENES_URL=http://192.168.10.249:3006/static/uploads/imagenes
+ 
+# Videos
+NEXT_PUBLIC_VIDEOS_URL=http://192.168.10.249:3006/static/uploads/videos
+ 
+# Documentos
+NEXT_PUBLIC_DOCUMENTOS_URL=http://192.168.10.249:3006/static/uploads/documentos
+ 
+# Estado (Disponible)
+NEXT_PUBLIC_ESTADO_DISPONIBLE_URL=http://192.168.10.249:3007/api/estado_propiedad?search=Disponible
+ 
+# Tipo-Documento (DNI)
+NEXT_PUBLIC_TIPO_DOCUMENTO_DNI_URL=http://192.168.10.249:3002/api/tipo-documento?search=DNI
+ 
+# Tipo de atención (Cotización)
+NEXT_PUBLIC_TIPO_ATENCION_COTIZACION_URL=http://192.168.10.249:3003/api/tipos-atencion?search=Cotizaci%C3%B3n
+ 
+# Tipo de atención (Consulta)
+NEXT_PUBLIC_TIPO_ATENCION_CONSULTA_URL=http://192.168.10.249:3003/api/tipos-atencion?search=Consulta
+ 
+# Tipo de atención (Reclamo)
+NEXT_PUBLIC_TIPO_ATENCION_RECLAMO_URL=http://192.168.10.249:3003/api/tipos-atencion?search=Reclamo
+ 
+# Estado de atención (Finalizada)
+NEXT_PUBLIC_ESTADO_ATENCION_FINALIZADA_URL=http://192.168.10.249:3003/api/estado-atencion?search=Finalizada
+ 
+# Estado de atención (Cancelada)
+NEXT_PUBLIC_ESTADO_ATENCION_CANCELADA_URL=http://192.168.10.249:3003/api/estado-atencion?search=Cancelada
+ 
+# Estado de atención (En Curso)
+NEXT_PUBLIC_ESTADO_ATENCION_EN_CURSO_URL=http://192.168.10.249:3003/api/estado-atencion?search=En%20Curso
+ 
+# Canales Comunicacion (Presencial)
+NEXT_PUBLIC_CANALES_COMUNICACION_PRESENCIAL_URL=http://192.168.10.249:3003/api/canales-comunicacion?search=Presencial
+ 
+# Tipo plan de pago (Al contado)
+NEXT_PUBLIC_PLAN_PAGO_AL_CONTADO_URL=http://192.168.10.249:3008/api/tipos-plan-pago-propiedad?search=Al%20Contado
+ 
+# Tipo plan de pago (Por partes)
+NEXT_PUBLIC_PLAN_PAGO_POR_PARTES_URL=http://192.168.10.249:3008/api/tipos-plan-pago-propiedad?search=Por%20partes
+ 
+# Estado plan pago (Pendiente)
+NEXT_PUBLIC_ESTADO_PLAN_PAGO_URL=http://192.168.10.249:3008/api/estado-plan-pago?search=Pendiente
+ 
+# Empresa (Inmobis)
+NEXT_PUBLIC_EMPRESA_INMOBIS_URL=http://192.168.10.249:3001/api/empresas?search=Inmobis
+ 
+# ===== Configuración de la aplicación =====
+NEXT_PUBLIC_APP_NAME=Inmobis
+NEXT_PUBLIC_APP_DESCRIPTION=Sistema de Gestión Inmobiliaria
+# ===== Configuración de autenticación =====
+NEXT_PUBLIC_AUTH_ENABLED=true
+ 
+#Tipos de movimiento de caja
+NEXT_PUBLIC_TIPO_MOVIMIENTO_INGRESO=INGRESO
+NEXT_PUBLIC_TIPO_MOVIMIENTO_EGRESO=EGRESO
+#Estados de movimiento de caja
+NEXT_PUBLIC_ESTADOS_MOVIMIENTO_APROBADO=APROBADO
+NEXT_PUBLIC_ESTADOS_MOVIMIENTO_PENDIENTE=PENDIENTE
+#Estados de caja
+NEXT_PUBLIC_ESTADO_CAJA_ABIERTA="Abierta"
+NEXT_PUBLIC_ESTADO_CAJA_CERRADA="Cerrada"
+#Tipo de operacion de caja
+NEXT_PUBLIC_TIPO_OPERACION_TRANSFERENCIA="Transferencia"
+#Tipo de caja
+NEXT_PUBLIC_TIPO_CAJA_CHICA="Chica"
+NEXT_PUBLIC_TIPO_CAJA_CENTRAL="Central"
+NEXT_PUBLIC_TIPO_CAJA_EJECUTIVO="Ejecutivo"
+
+NEXT_PUBLIC_RECAPTCHA_SITE_KEY =6Lf-qKwrAAAAAD183qkNAZbOP49sk3C66xTVJupr
+
+
+# Estado de cotización (Pendiente)
+NEXT_PUBLIC_ESTADO_COTIZACION_PENDIENTE_URL=http://192.168.10.249:3007/api/estado-cotizacion?search=Pendiente
+
+# Estado de cotización (Aprobada)
+NEXT_PUBLIC_ESTADO_COTIZACION_APROBADA_URL=http://192.168.10.249:3007/api/estado-cotizacion?search=Aprobada
+
+# Estado de cotización (Anulada)
+NEXT_PUBLIC_ESADO_COTIZACION_CANCELADA_URL=http://192.168.10.249:3007/api/estado-cotizacion?search=Anulada

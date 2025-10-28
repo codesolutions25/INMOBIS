@@ -1,0 +1,66 @@
+.indexCell {
+    width: 42px;
+    text-align: center;
+}
+
+.nombreCell {
+    width: 250px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.codigoCell {
+    width: 100px;
+    text-align: left;
+}
+
+.direccionCell {
+    width: 250px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.precioCell {
+    width: 100px;
+    text-align: right;
+}
+
+.areaCell {
+    width: 60px;
+    text-align: right;
+}
+
+.habitacionesCell {
+    width: 80px;
+    text-align: center;
+}
+
+.banosCell {
+    width: 60px;
+    text-align: center;
+}
+
+.estacionamientoCell {
+    width: 110px;
+    text-align: center;
+}
+
+.accionesCell {
+    width: 150px;
+    text-align: center;
+}
+
+.actionsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+}
+
+.textAlignLeft {
+    text-align: left;
+}

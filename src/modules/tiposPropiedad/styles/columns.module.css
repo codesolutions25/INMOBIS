@@ -1,0 +1,44 @@
+.indexCell {
+    width: 70px;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.nombreCell {
+    width: 200px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.descripcionCell {
+    width: 300px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.actionsCell {
+    width: 150px;
+    text-align: center;
+}
+
+
+.editButton {
+    color: #f59e0b;
+}
+
+.editButton:hover {
+    color: #b45309;
+    background-color: #fef3c7;
+}
+
+.deleteButton {
+    color: #ef4444;
+}
+
+.deleteButton:hover {
+    background-color: #fee2e2;
+}

@@ -1,0 +1,66 @@
+.indexCell {
+    width: 42px;
+    text-align: center;
+}
+.tableWrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+.tableWrapper table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.numeroCell {
+    width: 40px;
+    text-align: center;
+}
+
+.nombreCell {
+    width: 350px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ubicacionCell {
+    width: 390px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.fechaInicioCell {
+    width: 130px;
+    text-align: center;
+}
+
+.fechaFinCell {
+    width: 130px;
+    text-align: center;
+}
+
+.estadoCell {
+    width: 100px;
+    text-align: center;
+}
+
+.accionesCell {
+    width: 180px;
+    text-align: center;
+}
+
+.actionsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.textAlignLeft {
+    text-align: left;
+}

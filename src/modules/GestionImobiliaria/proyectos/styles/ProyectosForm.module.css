@@ -1,0 +1,101 @@
+/* Estilos para el formulario de proyectos */
+
+/* Contenedor principal del formulario */
+.proyectoFormContainer {
+  min-width: 100%;
+}
+
+/* Contenedor del diálogo */
+.dialogContent {
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  overflow-x: visible;
+}
+
+/* Contenedores de inputs */
+.inputContainer {
+  width: 100%;
+}
+
+/* Estilos para los contenedores de combobox */
+.comboboxContainer {
+  height: 42px;
+  position: relative;
+  overflow: visible;
+}
+
+/* Contenedor de ubicación */
+.ubicacionContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* En pantallas medianas y grandes */
+@media (min-width: 768px) {
+  .ubicacionContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+}
+/* Contenedor para agrupar los campos de ubicación específica */
+.ubicacionEspecificaContainer {
+  border: 1px solid #e2e8f0;
+  border-radius: 0.375rem;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Título para la sección de ubicación específica */
+.ubicacionEspecificaTitle {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #0C4A6E;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Estilos para los combobox de ubicación */
+.ubicacionCombobox {
+  width: 100%;
+}
+
+/* Estados deshabilitados para combobox */
+.comboboxDisabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+/* Estilos para el área de texto de descripción */
+.textareaDescription {
+  min-height: 150px;
+  width: 100%;
+}
+
+/* Estilos para los títulos de sección */
+.sectionTitle {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #0C4A6E;
+  margin-bottom: 0.75rem;
+}
+
+/* Estilos para las filas del grid */
+.formRow {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem 2rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .formRow {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 2rem;
+  }
+}

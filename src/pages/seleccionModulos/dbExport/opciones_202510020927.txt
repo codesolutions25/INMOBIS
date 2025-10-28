@@ -1,0 +1,45 @@
+|id_opcion|nombre                   |descripcion                             |icono|es_activo|created_at             |updated_at             |
+|---------|-------------------------|----------------------------------------|-----|---------|-----------------------|-----------------------|
+|17       |Crear nueva caja         |Opción del módulo Caja                  |     |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|1        |Gestionar personas       |Opción del módulo Usuarios              |     |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|2        |Gestionar usuarios       |Opción del módulo Usuarios              |     |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|3        |Asignar roles            |Opción del módulo Usuarios              |     |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|4        |Asignar permisos         |Opción del módulo Usuarios              |     |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|5        |Gestionar proyectos      |Opción del módulo Gestión inmobiliario  |     |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|6        |Gestionar propiedades    |Opción del módulo Gestión inmobiliario  |     |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|7        |Gestionar caracteristicas|Opción del módulo Gestión inmobiliario  |     |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|9        |Gestionar pagos de ventas|Opción del módulo Ventas                |     |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|18       |Asignar caja a usuario   |Opción del módulo Caja                  |     |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|19       |Reporte de operaciones   |Opción del módulo Caja                  |     |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|20       |Tipos de caja            |Opción del módulo Caja                  |     |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|21       |Estados de caja          |Opción del módulo Caja                  |     |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|22       |Tipos de operación       |Opción del módulo Caja                  |     |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|23       |Tipos de movimiento      |Opción del módulo Caja                  |     |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|12       |Gestionar puntos de venta|Opción del módulo Punto de venta        |     |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|25       |Permisos                 |Opción del módulo Configuración         |     |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|26       |Tipos de documento       |Opción del módulo Configuración         |     |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|27       |Tipos de propiedad       |Opción del módulo Configuración         |     |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|14       |Caja Chica               |Opción del módulo Caja                  |     |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|15       |Caja Ejecutiva           |Opción del módulo Caja                  |     |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|16       |Caja Central             |Opción del módulo Caja                  |     |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|28       |Estados de propiedad     |Opción del módulo Configuración         |     |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|29       |Estado de cotización     |Opción del módulo Configuración         |     |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|33       |Estados de venta         |Opción del módulo Configuración         |     |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|36       |Dashboard                |Opción del módulo Dashboard             |     |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|37       |Empresas                 |Opción del módulo Empresas              |     |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|38       |Clientes Inmobiliarios   |Opción del módulo Clientes Inmobiliarios|     |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|39       |Cotizaciones             |Opción del módulo Cotizaciones          |     |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|40       |Reservas                 |Opción del módulo Reservas              |     |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|41       |Atención al cliente      |Opción del módulo Atención al cliente   |     |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|42       |Feriados Globales        |Opción del módulo Configuracion         |     |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|24       |Roles                    |Opción del módulo Configuración         |     |false    |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|13       |Asignar usuarios         |Opción del módulo Punto de venta        |     |false    |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|34       |Tipos nota de venta      |Opción del módulo Configuración         |     |false    |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|35       |Estados de nota de venta |Opción del módulo Configuración         |     |false    |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|31       |Tipos de item de venta   |Opción del módulo Configuración         |     |false    |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|11       |Anular venta             |Opción del módulo Ventas                |     |false    |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|10       |Gestionar notas de ventas|Opción del módulo Ventas                |     |false    |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|8        |Gestionar ventas         |Opción del módulo Ventas                |     |false    |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|30       |Tipos de pago            |Opción del módulo Configuración         |     |true     |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|32       |Metodos de pago          |Opción del módulo Configuración         |     |false    |2025-07-03 21:44:46.000|2025-07-03 21:44:46.000|
+|43       |Tipos de propiedad       |Opción del módulo Configuración         |     |true     |2025-09-04 10:18:01.812|2025-09-04 10:18:01.812|

@@ -1,0 +1,66 @@
+/* Contenedor principal del diálogo */
+.dialogContent {
+    width: 90%;
+    max-width: 100%;
+    padding: 1rem;
+    overflow-y: auto;
+    height: auto;
+    max-height: 90vh;
+}
+
+/* Contenedor del formulario */
+.formContainer {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Grid principal */
+.grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+/* Clases de grid para móvil (por defecto) */
+.gridFull,
+.gridHalf,
+.gridThird {
+    width: 100%;
+}
+
+/* Para pantallas medianas y grandes (≥768px) */
+@media (min-width: 768px) {
+    .dialogContent {
+        padding: 1.5rem;
+        max-width: 1000px;
+    }
+
+    .formContainer {
+        min-width: auto;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(12, minmax(0, 1fr));
+        gap: 1rem 2rem;
+    }
+
+    .gridFull {
+        grid-column: span 12;
+    }
+
+    .gridHalf {
+        grid-column: span 6;
+    }
+
+    .gridThird {
+        grid-column: span 4;
+    }
+}
+
+/* Ajustes para campos de formulario */
+.fieldContainer {
+    width: 100%;
+}

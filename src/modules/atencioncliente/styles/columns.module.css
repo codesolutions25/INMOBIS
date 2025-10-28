@@ -1,0 +1,77 @@
+.textAlignLeft {
+    text-align: left;
+    padding-top: 0.35rem;
+    padding-bottom: 0.35rem;
+}
+
+.actionsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem; /* gap-1 */
+}
+
+.actionButton {
+    height: 2rem; /* h-8 */
+    width: 2rem; /* w-8 */
+    padding: 0; /* p-0 */
+}
+
+.editButton {
+    color: #f59e0b; /* text-yellow-500 */
+}
+
+.editButton:hover {
+    color: #b45309; /* hover:text-yellow-700 */
+    background-color: #fef3c7; /* hover:bg-yellow-100 */
+}
+
+.deleteButton {
+    color: #ef4444; /* text-red-500 */
+}
+
+.deleteButton:hover {
+    color: #b91c1c; /* hover:text-red-700 */
+    background-color: #fee2e2; /* hover:bg-red-100 */
+}
+
+.icon {
+    height: 1rem; /* h-4 */
+    width: 1rem; /* w-4 */
+}
+
+.descriptionCell {
+    width: 755px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+}
+
+.indexCell {
+    width: 42px;
+    text-align: center;
+}
+
+.nameCell {
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+}
+
+.activeCell {
+    width: 120px;
+    text-align: center;
+}
+
+.actionsCell {
+    width: 145px;
+    text-align: center;
+}
+
+.tableWrapper table {
+    table-layout: fixed;
+    width: 100%;
+}

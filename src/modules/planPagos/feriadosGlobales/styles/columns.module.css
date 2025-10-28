@@ -1,0 +1,107 @@
+/* Estilos base de la tabla */
+.tableWrapper {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.tableWrapper table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+/* Estilos base para celdas */
+.cell {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    vertical-align: middle;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Anchos específicos de columnas */
+.indexCell {
+    width: 50px;
+    text-align: left;
+    padding: 0.40rem 0.8rem;
+}
+
+.dateCell {
+    width: 150px;
+    min-width: 120px;
+    text-align: left;
+}
+
+.descriptionCell {
+    min-width: 200px;
+    max-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+}
+
+.actionsCell {
+    width: 140px;
+    text-align: left;
+    padding: 0.5rem;
+}
+
+/* Action buttons */
+.actionsContainer {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    gap: 0.5rem;
+    padding: 0.25rem;
+}
+
+.actionButton {
+    height: 2rem;
+    width: 2rem;
+    padding: 0;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    border-radius: 0.375rem;
+    transition: all 0.2s ease;
+}
+
+.editButton {
+    color: #f59e0b;
+}
+
+.editButton:hover {
+    color: #b45309;
+    background-color: #fef3c7;
+}
+
+.deleteButton {
+    color: #ef4444;
+}
+
+.deleteButton:hover {
+    color: #b91c1c;
+    background-color: #fee2e2;
+}
+
+.icon {
+    height: 1rem;
+    width: 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .dateCell {
+        width: 120px;
+    }
+    
+    .descriptionCell {
+        min-width: 150px;
+    }
+    
+    .actionsCell {
+        width: 120px;
+    }
+}

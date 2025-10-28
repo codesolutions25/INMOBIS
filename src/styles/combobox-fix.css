@@ -1,0 +1,83 @@
+/* Estilos para corregir problemas de layout en combobox */
+
+/* Contenedor principal para combobox */
+.combobox-container {
+  position: relative !important;
+  min-height: 42px !important;
+  width: 100% !important;
+  margin-bottom: 8px !important;
+  z-index: auto !important;
+  overflow: visible !important;
+}
+
+/* Asegurar que el popover se muestre correctamente */
+[data-slot="popover"] {
+  position: static !important;
+  width: 100% !important;
+  overflow: visible !important;
+}
+
+/* Ajustar el contenido del popover para que se muestre correctamente */
+[data-slot="popover-content"] {
+  position: absolute !important;
+  width: auto !important;
+  min-width: 250px !important;
+  z-index: 100 !important;
+  max-height: 200px !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+}
+
+/* Contenedor de ubicación específica */
+.ubicacion-container {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 16px !important;
+  min-height: 120px !important; /* Altura mínima reducida aún más */
+  overflow: visible !important;
+  position: relative !important;
+  z-index: 5 !important;
+  padding: 12px !important; /* Padding reducido */
+  border: 1px solid #e5e7eb !important;
+  border-radius: 6px !important;
+  background-color: #f9fafb !important;
+  margin-bottom: 16px !important;
+}
+
+/* Ajustes específicos para cada combobox en la sección de ubicación */
+.ubicacion-combobox {
+  position: relative !important;
+  overflow: visible !important;
+  z-index: auto !important;
+}
+
+/* Z-index específicos para cada combobox */
+.departamento-combobox {
+  z-index: 30 !important;
+}
+
+.provincia-combobox {
+  z-index: 20 !important;
+}
+
+.distrito-combobox {
+  z-index: 10 !important;
+}
+
+/* Asegurar que el formulario tenga suficiente espacio */
+.proyecto-form-container,
+.propiedad-form-container {
+  width: 100% !important;
+  max-width: 1000px !important; /* Formulario más ancho horizontalmente */
+  margin: 0 auto !important;
+  position: relative !important;
+  overflow: visible !important;
+}
+
+/* Estilos para los inputs */
+.input-container {
+  position: relative !important;
+  min-height: 42px !important;
+  width: 100% !important;
+}

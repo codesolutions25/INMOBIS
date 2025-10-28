@@ -1,0 +1,115 @@
+# Config
+CONFIG_SERVICE_URL=http://192.168.10.252:3001/api
+ 
+# Inmobiliaria
+INMOBILIARIA_SERVICE_URL=http://192.168.10.252:3007/api
+ 
+# Auth
+AUTH_SERVICE_URL=http://192.168.10.252:3002/api
+ 
+# Caja
+CAJA_SERVICE_URL=http://192.168.10.252:3004/api
+ 
+# Archivos
+ARCHIVOS_SERVICE_URL=http://192.168.10.252:3006/api
+ 
+# Atencion
+ATENCION_SERVICE_URL=http://192.168.10.252:3003/api
+ 
+# Plan de pagos
+PLAN_PAGOS_SERVICE_URL=http://192.168.10.252:3008/api
+ 
+# Ventas
+VENTA_SERVICE_URL=http://192.168.10.252:3009/api
+ 
+# Imagenes
+IMAGENES_URL=http://192.168.10.252:3006/static/uploads/imagenes
+ 
+# Videos
+VIDEOS_URL=http://192.168.10.252:3006/static/uploads/videos
+ 
+# Documentos
+DOCUMENTOS_URL=http://192.168.10.252:3006/static/uploads/documentos
+ 
+# Estado (Disponible)
+ESTADO_DISPONIBLE_URL=http://192.168.10.252:3007/api/estado_propiedad?search=Disponible
+ 
+# Tipo-Documento (DNI)
+TIPO_DOCUMENTO_DNI_URL=http://192.168.10.252:3002/api/tipo-documento?search=DNI
+ 
+# Tipo de atención (Cotización)
+TIPO_ATENCION_COTIZACION_URL=http://192.168.10.252:3003/api/tipos-atencion?search=Cotización
+ 
+# Tipo de atención (Consulta)
+TIPO_ATENCION_CONSULTA_URL=http://192.168.10.252:3003/api/tipos-atencion?search=Consulta
+ 
+# Tipo de atención (Reclamo)
+TIPO_ATENCION_RECLAMO_URL=http://192.168.10.252:3003/api/tipos-atencion?search=Reclamo
+ 
+# Estado de atención (Finalizada)
+ESTADO_ATENCION_FINALIZADA_URL=http://192.168.10.252:3003/api/estado-atencion?search=Finalizada
+ 
+# Estado de atención (Cancelada)
+ESTADO_ATENCION_CANCELADA_URL=http://192.168.10.252:3003/api/estado-atencion?search=Cancelada
+ 
+# Estado de atención (En Curso)
+ESTADO_ATENCION_EN_CURSO_URL=http://192.168.10.252:3003/api/estado-atencion?search=En%20Curso
+ 
+# Canales Comunicacion (Presencial)
+CANALES_COMUNICACION_PRESENCIAL_URL=http://192.168.10.252:3003/api/canales-comunicacion?search=Presencial
+ 
+# Tipo plan de pago (Al contado)
+PLAN_PAGO_AL_CONTADO_URL=http://192.168.10.252:3008/api/tipos-plan-pago-propiedad?search=Al%20Contado
+ 
+# Tipo plan de pago (Por partes)
+PLAN_PAGO_POR_PARTES_URL=http://192.168.10.252:3008/api/tipos-plan-pago-propiedad?search=Por%20partes
+ 
+# Estado plan pago (Pendiente)
+ESTADO_PLAN_PAGO_URL=http://192.168.10.252:3008/api/estado-plan-pago?search=Pendiente
+ 
+# Empresa (Inmobis)
+EMPRESA_INMOBIS_URL=http://192.168.10.252:3001/api/empresas?search=Inmobis
+ 
+# ===== Configuración de la aplicación =====
+APP_NAME=Inmobis
+APP_DESCRIPTION=Sistema de Gestión Inmobiliaria
+# ===== Configuración de autenticación =====
+AUTH_ENABLED=true
+ 
+#Tipos de movimiento de caja
+NEXT_PUBLIC_TIPO_MOVIMIENTO_INGRESO=INGRESO
+NEXT_PUBLIC_TIPO_MOVIMIENTO_EGRESO=EGRESO
+#Estados de movimiento de caja
+ESTADOS_MOVIMIENTO_APROBADO=APROBADO
+ESTADOS_MOVIMIENTO_PENDIENTE=PENDIENTE
+#Estados de caja
+NEXT_PUBLIC_ESTADO_CAJA_ABIERTA="Abierta"
+NEXT_PUBLIC_ESTADO_CAJA_CERRADA="Cerrada"
+#Tipo de operacion de caja
+TIPO_OPERACION_TRANSFERENCIA="Transferencia"
+#Tipo de caja
+NEXT_PUBLIC_TIPO_CAJA_CHICA="Chica"
+NEXT_PUBLIC_TIPO_CAJA_CENTRAL="Central"
+NEXT_PUBLIC_TIPO_CAJA_EJECUTIVO="Ejecutivo"
+
+ESTADO_CAJA_ABIERTA_URL=http://192.168.10.252:3004/api/estados-de-caja?search=Abierta
+ESTADO_CAJA_CERRADA_URL=http://192.168.10.252:3004/api/estados-de-caja?search=Cerrada
+
+#Tipo de estado plan pago
+ESTADO_PLAN_PAGO_PENDIENTE=http://192.168.10.252:3008/api/estado-plan-pago?search=Pendiente
+ESTADO_PLAN_PAGO_CANCELADO=http://192.168.10.252:3008/api/estado-plan-pago?search=Cancelado
+
+RECAPTCHA_SITE_KEY=6Lf-qKwrAAAAAD183qkNAZbOP49sk3C66xTVJupr
+
+# Estado de cotización (Pendiente)
+ESTADO_COTIZACION_PENDIENTE_URL=http://192.168.10.252:3007/api/estado-cotizacion?search=Pendiente
+
+# Estado de cotización (Aprobada)
+ESTADO_COTIZACION_APROBADA_URL=http://192.168.10.252:3007/api/estado-cotizacion?search=Aprobada
+
+# Estado de cotización (Anulada)
+ESTADO_COTIZACION_CANCELADA_URL=http://192.168.10.252:3007/api/estado-cotizacion?search=Anulada
+
+NEXT_PUBLIC_RECAPTCHA_SITE_KEY=6Lf-qKwrAAAAAD183qkNAZbOP49sk3C66xTVJupr
+ESTADO_PLAN_PAGO_URL=http://192.168.10.252:3008/api/estado-plan-pago?search=Pendiente
+

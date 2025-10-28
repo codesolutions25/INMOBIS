@@ -1,0 +1,91 @@
+.dialogContent {
+    overflow: auto;
+    overflow-x: hidden;
+    max-height: 100vh;
+
+    @media (min-width: 640px) { 
+        max-width: 500px;
+    }
+}
+
+.readOnlyAlert {
+    margin-bottom: 2rem; /* mb-4 */
+    display: flex;
+    align-items: center;
+    border-radius: 0.375rem; /* rounded-md */
+    border: 1px solid #facc15; /* border-yellow-400 */
+    background-color: #fefce8; /* bg-yellow-50 */
+    padding: 0.75rem; /* p-3 */
+    font-size: 0.875rem; /* text-sm */
+    color: #854d0e; /* text-yellow-700 */
+}
+
+.readOnlyAlert svg {
+    margin-right: 1rem; /* mr-2 */
+    height: 2rem; /* h-5 */
+    width: 2rem; /* w-5 */
+}
+
+.formContainer {
+    min-width: 200px;
+    max-width: 600px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    gap: 1rem 2rem; /* gap-y-4 gap-x-8 */
+    margin-bottom: 1.5rem; /* mb-6 */
+}
+
+.gridFull {
+    grid-column: span 12 / span 12;
+}
+
+.inputContainer {
+    position: relative;
+}
+
+.inputField {
+    height: 2rem; /* h-10 */
+}
+
+.switchContainer {
+    height: 2rem; /* h-12 */
+    display: flex;
+    align-items: center;
+}
+
+.switchWrapper {
+    width: 100%;
+    border: 1px solid #d1d5db; /* border-gray-300 */
+    border-radius: 0.375rem; /* rounded-md */
+    padding: 0.625rem 0.5rem; /* px-2 py-2.5 */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.switchLabel {
+    font-size: 0.875rem; /* text-sm */
+    color: #4b5563; /* text-gray-600 */
+}
+
+.switch[data-state=checked] {
+    background-color: #0C4A6E;
+}
+
+.textareaField {
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+}
+
+.gridLast {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    column-gap: 2rem; /* gap-y-4 gap-x-8 */
+    row-gap: 1rem;
+}
